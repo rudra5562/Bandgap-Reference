@@ -1,1 +1,4 @@
 # Bandgap-Reference
+The objective of this project is to design and implement a Bandgap Reference (BGR) circuit using GPDK 180nm CMOS technology in Cadence Virtuoso. A Bandgap Reference circuit is essential in analog and mixed-signal design, providing a stable reference voltage that remains consistent despite variations in temperature, supply voltage, and process conditions. This project encompasses the design, simulation, and thorough analysis of the BGR circuit to ensure it meets the required performance specifications.
+
+Bandgap Reference circuits achieve temperature independence by leveraging the characteristics of bipolar transistors. By combining the base-emitter voltage of a bipolar transistor, which decreases with temperature, with a Proportional to Absolute Temperature (PTAT) voltage, which increases with temperature, the circuit generates a reference voltage that remains stable across a wide range of temperatures.
